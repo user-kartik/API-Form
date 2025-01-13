@@ -23,19 +23,23 @@ This is a React-based web application that displays user details and allows for 
 Make sure you have `node` and `npm` (or `yarn`) installed. If not, install them from [Node.js official website](https://nodejs.org/).
 
 ### 1. Clone the Repository
-##2. Install Dependencies
+
 Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/user-kartik/API-Form.git
 cd API-Form
+```
 
-
-
+## 2. Install Dependencies
 Install the required dependencies:
-```npm install
-3. Run the Development Server
+```bash
+npm install
+```
+## 3. Run the Development Server
 
 Start the development server:
-```npm start
+```bash
+npm start
+```
 The app will run locally on http://localhost:3000.
