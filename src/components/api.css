@@ -1,0 +1,74 @@
+body {
+    background-color: #f7f7fe; 
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #e71717; 
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #ff1493; 
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); 
+  }
+  
+  button:active {
+    transform: translateY(2px); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .user-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); 
+  }
+  
+  .user-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .user-card h3 {
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-card p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
